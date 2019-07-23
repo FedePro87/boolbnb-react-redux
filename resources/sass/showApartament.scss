@@ -1,0 +1,94 @@
+
+.show-apartment{
+
+  background: white;
+  width: 80%;
+  margin:auto;
+
+  .head{
+  .image-title-wrapper{
+    box-shadow: 6px 12px 20px 0px rgba(0,0,0,0.42);
+    position: relative;
+
+    .picture{
+      width: 100%;
+
+    }
+
+    .bg-title{
+
+      width: 100%;
+      padding: 45px 15px;
+      position: absolute;
+      bottom: 0;
+      background: rgba(0,0,0,0.35);
+
+      .image-title{
+        position: absolute;
+        bottom: 10px;
+        text-align: center;
+        padding: 15px;
+        color: white;
+      }
+    }
+  }
+}
+
+  .price{
+
+
+    h3{
+      display: inline;
+      font-size: 45px;
+      font-weight: bold;
+    }
+  }
+
+  .info-apartment{
+
+    i{
+      margin: 0 20px;
+    }
+  }
+
+  .create{
+
+    .message-form-wrapper{
+
+      width: 100%;
+      margin: 0 30px;
+
+      input, textarea{
+        width: 100%;
+        margin: 15px 0;
+        border: 1px solid rgba(0, 0, 0, 0.08);
+
+      }
+
+
+    }
+    }
+
+    .messages{
+      height: auto;
+      margin: auto;
+        .border{
+          margin-bottom: 15px;
+          padding: 15px;
+        }
+
+      }
+
+
+
+  .chart-visual{
+    padding: 50px 0;
+
+    canvas{
+      width:60%;
+      height:auto;
+      margin:auto;
+      padding: 25px;
+    }
+  }
+}

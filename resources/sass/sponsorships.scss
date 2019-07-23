@@ -1,0 +1,48 @@
+
+.add-sponsorship{
+
+  margin: auto;
+  width: 80%;
+  background: white;
+  padding: 40px;
+  .price-block{
+    padding: 20px;
+    background: white;
+    border-radius: 250px;
+    width: 80%;
+    margin: auto;
+    box-shadow: 5px 6px 12px 0px rgba(0,0,0,0.05);
+
+    h2{
+      text-align: center;
+      margin: 15px 0;
+      color: #FF5A5F;
+      font-weight: bolder;
+    }
+
+    h4{
+      text-align: center;
+      margin: 15px 0;
+    }
+
+    .sponsorship-type{
+      width: 80%;
+      text-align: center;
+      margin: auto;
+
+      .type{
+        margin: 8px 0;
+        font-size: 16px;
+      }
+    }
+  }
+
+  .payment-form{
+
+    #submit-button{
+      margin: 15px 0;
+      width: 100%;
+
+    }
+  }
+}

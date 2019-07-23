@@ -1,0 +1,72 @@
+.navbar{
+  width: 100%;
+  position: sticky;
+  top:0;
+  z-index: 1000;
+}
+
+.alert{
+  position: absolute;
+  left: 50%;
+  top:75%;
+  transform: translate(-50%,-75%);
+  z-index: 10;
+}
+
+.main-header{
+  width: 100%;
+  background-image: url(https://a0.muscache.com/4ea/air/v2/pictures/b7ca8f0c-030a-401a-a3a6-fc3d50f3425f.jpg?t=c:3w-h2-gw,r:w3100-h2074-sfit,e:fjpg-c80);
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  .navbar-wrapper{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    .navbar{
+      background-color: transparent!important;
+      box-shadow: none!important;
+      .navbar-brand{
+        color: white;
+        fill:white;
+      }
+      .nav-link{
+        color: white;
+      }
+    }
+    .original-header{
+      background-color: white!important;
+      box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+      .navbar-brand{
+        color: rgba(0, 0, 0, 0.7);;
+        fill: rgba(0, 0, 0, 0.7);;
+      }
+      .nav-link{
+        color: rgba(0, 0, 0, 0.7);;
+      }
+    }
+  }
+
+  .bg-form-wrapper{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+  .form-style{
+
+    background: white;
+    margin: 10%;
+
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.39);
+
+    h1{
+      font-weight: bold;
+    }
+  }
+  }
+}

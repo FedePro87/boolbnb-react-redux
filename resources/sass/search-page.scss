@@ -1,0 +1,71 @@
+.search-wrapper{
+
+  margin: 40px;
+
+  .search-bar{
+    width: 45%;
+    margin:auto;
+   }
+   .choose-wrapper>*{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .service-wrapper{
+      width: 100%;
+      margin:auto;
+      text-align: center;
+      .title{
+
+        font-size: 30px;
+      }
+
+      .service-box{
+        margin: auto;
+        border-radius: 15px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+
+
+        label{
+
+          width: calc(100%/6);
+          padding: 12px;
+        }
+      }
+    }
+}
+
+.sponsored-container{
+
+  width: 100%;
+  background: #B0C4DE;
+  #sponsored-component-wrapper{
+
+    position: relative;
+
+    width: 100%;
+    margin: auto;
+
+    .sponsor-title{
+      position: absolute;
+      width: 100%;
+      height: 50px;
+      left: 21px;
+      top: 12px;
+      font-size: 19px;
+    }
+
+  }
+}
+.result-box{
+
+  position: relative;
+
+  h5{
+    position: absolute;
+    top: 5px;
+    left: 19px;
+  }
+}
